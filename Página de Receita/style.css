@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.interface{
+    width: 1080px;
+    margin: 0 auto;
+}
+   
+/*Estilo do Header*/
+header{
+    background-color: #ff4800;
+    text-align: center;
+    padding: 20px 0;
+
+
+}
+body{
+    padding: 0px 5px;
+}
+
+header img{
+    width: 30%;
+   
+    
+}
+/*Estilo do background da torta de frango*/
+
+div.img-torta{
+    width: 100vw;
+    height:320px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-image: url(imagens/torta-de-frango.jpg);
+
+}
+/*Estilo de sessão receitas */
+h1{
+    color: #ff4800;
+    font-size: 60px;
+    margin: 20px 0;
+}
+h2{
+    text-align: center;
+    background-color: #ff4800;
+    padding: 10px 0;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 30px;
+}
+h3{
+    color: #858280;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+article.receita-box{
+    border: 1px solid #ff4800;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 20px;
+    }
+    ul, ol{
+        list-style-position: inside;
+        
+    }
+    ul li, ol li{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    article.receita-box a{
+        color: #ff4800;
+    }
+
+    footer{
+        background-color: #ff4800;
+        text-align: center;
+        padding: 20px 0;
+    }
+    footer p , a {
+        color: #ffffff;
+    }
+
+    @media screen and (max-width: 640px){
+        .interface{
+           
+        }
+        body{
+          
+           
+        }
+        h2{
+           width: 500px;
+           height: auto;
+         
+        }
+        article{
+            width: 500px;
+           height: auto;
+          
+
+        }
+       
+    }
+
+   
